@@ -1,6 +1,9 @@
 <template>
+
 <body >
+  
   <div class="container d-flex flex-column justify-content-center ">
+    <navi-app></navi-app>
     <div class="bgimg jusify-content-center">
     <h1>Just Dance</h1>
     <li><i>Twist</i></li>
@@ -11,8 +14,8 @@
     <li><i>Handwave</i></li>
     <li><i>Lay down</i></li>
     </div>
-    <jump-start-app></jump-start-app>
-    <icons-app></icons-app>
+        
+       <router-view></router-view>
     <!-- add moving js element words side to side -->
       <!-- fade in list items -->
     
@@ -31,12 +34,14 @@
 </template>
 
 <script>
-import jumpStart from './components/JumpStart.vue'
-import icons from './components/icons.vue'
+import navi from './components/Navi.vue'
+// import jumpStart from './components/JumpStart.vue'
+// import icons from './components/icons.vue'
 export default {
 components: {
-  jumpStartApp: jumpStart,
-  iconsApp: icons
+  // jumpStartApp: jumpStart,
+  // iconsApp: icons,
+  naviApp: navi
 
 }
 

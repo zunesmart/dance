@@ -13,7 +13,7 @@
       <li>&#8669; Respect</li>
       <li>&#8669; Rights</li>
       <li>&#8669; To live life at the fullest</li>
-    </ul>
+    </ul> 
     <hr>
   </div>
     <small class="red"><i>Compiled explenation By: Jason Ure August 11, 2020</i></small>
@@ -27,13 +27,18 @@
       has made way of thier freedom and integrety here in america. Naturally their are alot of examples of movments in dance
       that transform actural movements in the political world.
     </p>
+    <icon-app></icon-app>
   </div>
     
   
 </template>
 
 <script>
+import icon from './icons.vue'
 export default {
+  components: {
+    iconApp: icon
+  }
 }
 </script>
 
