@@ -2,7 +2,7 @@
 <body >
   <div class="container d-flex flex-column justify-content-center ">
     <div class="bgimg jusify-content-center">
-    <h1>Just dance</h1>
+    <h1>Just Dance</h1>
     <li><i>Twist</i></li>
     <li><i>Kneel</i></li>
     <li><i>backflip</i></li>
