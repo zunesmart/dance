@@ -60,6 +60,8 @@ html, body {
     background-image: url(./components/img/bgimg2.jpg);
     color: white;
     background-repeat: no-repeat;
+    opacity: .7;
+    color: white;
 
   }
   .red {
